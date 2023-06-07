@@ -1,9 +1,11 @@
 variable "cidr" {
- default= ""
+ type        = string
+ default     = ""
 }
 
 variable "subnet" {
- default= ""
+ type        = string
+ default     = ""
 }
 
 variable "region" {
