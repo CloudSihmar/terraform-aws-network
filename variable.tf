@@ -9,7 +9,7 @@ variable "subnet" {
 }
 
 variable "region" {
-  description = "AWS Region"
+  description = "region"
   type        = string
   default     = ""
 }
