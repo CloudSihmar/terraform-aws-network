@@ -6,3 +6,9 @@ variable "cidr" {
 variable "subnet" {
  default= ""
 }
+
+variable "region" {
+  description = "AWS Region"
+  type        = string
+  default     = ""
+}
